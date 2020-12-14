@@ -22,8 +22,13 @@
 }
 
 .text-content {
+  line-height: 1.2;
   font-size: 1rem;
   color: var(--text-color);
+}
+
+.jc-center {
+  justify-content: center;
 }
 
 .btn {
@@ -39,10 +44,16 @@
   :root {
     font-size: 15px;
   }
+  .text-content {
+    line-height: 1.4;
+  }
 }
 
 @media screen and (min-width: 992px) {
   :root {
     font-size: 16px;
+  }
+  .text-content {
+    line-height: 1.5;
   }
 }
