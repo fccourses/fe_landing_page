@@ -7,6 +7,34 @@
   font-family: "Roboto", sans-serif;
 }
 
+.main-heading,
+.sub-heading {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.main-heading {
+  font-size: 3rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+}
+
+.text-content {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.btn {
+  display: block;
+  background-color: var(--accent-color);
+  padding: 25px 40px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+}
+
 @media screen and (min-width: 576px) {
   :root {
     font-size: 15px;
