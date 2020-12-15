@@ -1,5 +1,7 @@
 :root {
-  --accent-color: #34547a;
+  --accent-color: #34537a;
+  --accent-color-bg:#34537ace;
+
   --text-color: #727272;
   --second-bg-color: #eeeff1;
 
@@ -25,6 +27,25 @@
   line-height: 1.2;
   font-size: 1rem;
   color: var(--text-color);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-size{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.fd-column {
+  flex-direction: column;
 }
 
 .jc-center {
