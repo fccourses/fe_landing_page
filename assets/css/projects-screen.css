@@ -12,6 +12,7 @@
 }
 .project-img-wrapper {
   position: relative;
+  background-color: var(--second-bg-color);
 }
 .project-img {
   display: block;
@@ -46,12 +47,12 @@
   -webkit-line-clamp: 5;
 }
 .project-link {
-  position: absolute;
-  pointer-events: none;
-  bottom: var(--padding-value);
-
-  padding: 16px 32px;
   display: block;
+  max-width: 80%;
+  padding: 16px 32px;
+  position: absolute;
+  bottom: var(--padding-value);
+  pointer-events: none;
   background-color: white;
   color: black;
 }
@@ -79,5 +80,19 @@
   }
   .project-link {
     pointer-events: auto;
+  }
+
+  .project-container:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project-container:nth-child(even) {
+    flex-direction: initial;
+  }
+
+  .project-container:nth-child(4n + 3),
+  .project-container:nth-child(4n + 4) {
+    flex-direction: row-reverse;
   }
 }

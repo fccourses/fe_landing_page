@@ -41,7 +41,12 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
 
+.text-overflow{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .fd-column {
