@@ -41,6 +41,10 @@
   white-space: nowrap;
 }
 
+.nav-link:hover{
+  color: var(--accent-color);
+}
+
 @media screen and (min-width: 576px) {
   .page-logo {
     display: block;
