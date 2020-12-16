@@ -1,0 +1,17 @@
+.projects-number {
+  padding: 60px 0;
+  background-color: var(--accent-color);
+}
+
+.projects-number-article {
+  padding: 1.5rem 0;
+  color: white;
+}
+
+.projects-number-article-text {
+  margin-left: 20px;
+}
+
+.color-override {
+  color: inherit;
+}
