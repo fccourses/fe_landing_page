@@ -250,13 +250,18 @@
 
     <section class="feedback-form">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
+        <div class="row flex">
+          <div class="col-sm-12 col-md-6 margins">
             <h1 class="form-header">Хотите веб-сайт?</h1>
             <p class="form-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore a provident id earum nihil beatae porro. Quaerat blanditiis quis iste. Dolores aut beatae delectus? Eaque libero officiis vel, ipsa odio rem, enim quibusdam deleniti, doloribus repellendus cumque aspernatur asperiores non voluptatem. Quaerat optio officia mollitia architecto et sapiente reprehenderit?</p>
-            <input type="text" pattern="^[A-Za-z_-]{3,15}$" name="first-name" class="input-name" placeholder="Ваше имя">
-            <input type="text" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" name="email" class="input-mail" placeholder="Ваше e-mail">
-            <textarea name="feedback" id="feedback-text" class="feedback-text" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            <div class="form-inputs">
+              <div class="name-email">
+                <input type="text" pattern="^[A-Za-z_-]{3,15}$" name="first-name" class="input-name" placeholder="Ваше имя">
+                <input type="text" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" name="email" class="input-mail" placeholder="Ваше e-mail">
+              </div>
+              <textarea name="feedback" id="feedback-text" class="feedback-text" cols="30" rows="10" placeholder="Сообщение"></textarea>
+              <input type="submit" class="form-btn">
+            </div>
           </div>
         </div>
       </div>
