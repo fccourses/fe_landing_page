@@ -1,0 +1,46 @@
+.reg-form {
+  background-color: var(--second-bg-color);
+  padding-top: 100px;
+  text-align:center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.reg-form-text-margins {
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+
+.confirm-btn {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.input,
+.message-input {
+  margin: 5px auto;
+  padding: 17px 10px 18px 20px;
+  border: none;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+.input,
+.message-input {
+  
+  margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+     .input + .input {
+      margin-left: 30px;
+    }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  
+}

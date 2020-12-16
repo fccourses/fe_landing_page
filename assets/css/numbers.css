@@ -1,0 +1,40 @@
+.numbers {
+  background-color: var(--accent-color);
+  padding-top: 90px;
+  padding-bottom: 90px;
+  }
+
+.project-in-progress {
+display: flex;
+justify-content: center;
+padding: 10px 0;
+
+}
+
+.icon-wrapper {
+max-height: 50px;
+width: 100%;
+max-width: 47px;
+height: 100%;
+
+}
+
+.project-icon {
+  height: inherit;
+  width: inherit;
+  object-fit: contain;
+}
+
+.about-projects {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.about-projects > span:first-child {
+  font-size: 21px;
+  font-weight: 500;
+}
+
