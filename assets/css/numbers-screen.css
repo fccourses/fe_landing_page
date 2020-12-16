@@ -1,0 +1,30 @@
+.numbers-screen {
+  padding: 3rem 0px;
+  margin-bottom: 100px;
+  background-color: var(--accent-color);
+}
+
+.numbers-container {
+  position: relative;
+  --padding-value: 1rem;
+  padding: 2rem 0px;
+}
+.numbers-img-wrapper,
+.numbers-info {
+  max-width: 50%;
+  width: 50%;
+}
+.numbers-info {
+  padding: var(--padding-value);
+}
+.numbers-img-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.numbers-img {
+  display: block;
+  width: inherit;
+  height: 40%;
+  object-fit: cover;
+}
