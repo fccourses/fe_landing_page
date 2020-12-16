@@ -1,6 +1,7 @@
 .navigation {
   background-color: var(--second-bg-color);
   padding: 20px 6px;
+  overflow: hidden;
 }
 
 .page-logo {
