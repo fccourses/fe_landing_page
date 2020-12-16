@@ -1,0 +1,19 @@
+.form-content{
+	display: flex;
+	max-width: 540px;
+	margin: 100px auto;
+	flex-direction: column;
+}
+
+.form-title {
+	margin-bottom: 50px;
+	text-align: center;
+	
+}
+
+.form-title h2{
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
