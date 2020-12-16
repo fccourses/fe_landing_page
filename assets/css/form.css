@@ -1,0 +1,105 @@
+.form-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1.5;
+
+  background-color: var(--second-bg-color);
+  text-align: center;
+}
+
+.form-box{
+  justify-self: center;
+  display: flex;
+  flex-flow: column nowrap;
+
+  max-width: 540px;
+}
+
+.form-header{
+  max-width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.form-text{
+  max-width: 100%;
+  max-height: 10%;
+  opacity: 70%;
+  margin-bottom: 20px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.form-form{
+  max-width: 100%;
+}
+
+.name-email-box{
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 100%;
+}
+
+.form-input{
+  background-color: white;
+  border: none;
+
+  margin-bottom: 10px;
+  min-height: 40px;
+}
+
+.form-input-line{
+  width: 100%;
+}
+
+.form-input{
+  text-align: left;
+  width: 100%;
+  color: #5F5D5D;
+  font-family: inherit;
+}
+
+.form-btn{
+  text-transform: uppercase;
+  border: none;
+  background-color: var(--accent-color);
+  color: white;
+
+  padding: 20px 30px;
+  margin-top: auto;
+
+  max-width: 190px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .name-email-box{
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .form-text{
+    -webkit-line-clamp: 3;
+  }
+  
+  .form-input-line{
+    width: 47%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .form-input-line{
+    height: 50px;
+  }
+}
