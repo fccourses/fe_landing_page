@@ -1,0 +1,38 @@
+.numbers{
+	width: 100%;
+	background-color: #34547A;
+}
+
+.numbers-content{
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.numbers-block{
+	display: flex;
+	min-width: 141px;
+	justify-content: center;
+	margin: 50px auto;
+}
+
+.numbers-img{
+	margin: 0 10px;
+}
+
+.numbers-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.numbers-text div{
+	padding: 0 10px 10px;
+	font-size: 15px;
+	color: white;
+}
+
+.numbers-text .text{
+	font-size: 19px;
+}
+
