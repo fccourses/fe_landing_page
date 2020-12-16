@@ -17,6 +17,13 @@
 .numbers-info {
   padding: var(--padding-value);
 }
+
+.numbers-info-text,
+.numbers-info-head {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .numbers-img-wrapper {
   display: flex;
   position: relative;
