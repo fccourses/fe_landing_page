@@ -1,3 +1,16 @@
 .skills-screen {
   padding: 4em;
 }
+
+.skills-content {
+
+}
+
+.skiils-header {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.skill-name {
+  text-transform: capitalize;
+}
