@@ -12,6 +12,8 @@
 }
 .item-blue-section {
   position: relative;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .img-blue-section {
   padding-top: 4rem;
@@ -22,19 +24,36 @@
 }
 .info-blue-section {
   position: absolute;
-  right: 15%;
-  top: 50%;
+  right: -5%;
+  top: 40%;
   color: white;
-  
+  display: block;
 }
-.text-blue-section {
-  overflow-wrap: anywhere;
+.text-blue-section  {
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 500;
 }
+h2 {
+  font-size: 16px;
+}
+
+
 
 .wrapper-image-blue {
 
 }
-
+@media screen and (min-width: 420px) {
+  .item-blue-section {
+    margin-left: 2rem;
+  }
+  .info-blue-section {
+    position: absolute;
+    right: 15%;
+    top: 40%;
+    color: white;
+  }
+}
 @media screen and (min-width: 576px) {
   .blue-section {
     
@@ -49,8 +68,14 @@
   .wrapper-image-blue {
   
   }
+  .info-blue-section {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    color: white;
+  }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
 
 }
