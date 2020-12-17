@@ -18,9 +18,6 @@
 .img-blue-section {
   padding-top: 4rem;
   padding-bottom: 3rem;
-  /* position: relative; */
-  /* padding-left: 54px; */
-  
 }
 .info-blue-section {
   position: absolute;
@@ -29,20 +26,15 @@
   color: white;
   display: block;
 }
-.text-blue-section  {
+.text-blue-section {
   margin-bottom: 10px;
   font-size: 21px;
   font-weight: 500;
 }
-h2 {
+.text-blue-section-name {
   font-size: 16px;
 }
 
-
-
-.wrapper-image-blue {
-
-}
 @media screen and (min-width: 420px) {
   .item-blue-section {
     margin-left: 2rem;
@@ -55,27 +47,49 @@ h2 {
   }
 }
 @media screen and (min-width: 576px) {
-  .blue-section {
-    
-  }
-  .container-blue-section {
-
-  }
-
-  .img-blue-section {
-    
-  }
-  .wrapper-image-blue {
-  
-  }
   .info-blue-section {
     position: absolute;
-    right: 0;
+    right: -10%;
     top: 40%;
     color: white;
+  }
+  .item-blue-section {
+    margin-left: 8px;
+    margin-right: 10px;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .info-blue-section {
+    position: absolute;
+    right: 30%;
+    top: 40%;
+    color: white;
+  }
+  .item-blue-section {
+    margin-left: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .info-blue-section {
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    color: white;
+  }
+  .item-blue-section {
+    margin-left: 3.5rem;
+  }
+}
 
+@media screen and (min-width: 1200px) {
+  .info-blue-section {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    color: white;
+  }
+  .item-blue-section {
+    margin-left: 1rem;
+  }
 }
