@@ -11,8 +11,6 @@
   justify-self: center;
   display: flex;
   flex-flow: column nowrap;
-
-  max-width: 540px;
 }
 
 .form-header{
@@ -90,6 +88,7 @@
 
   .form-text{
     -webkit-line-clamp: 3;
+    font-size: 1rem;
   }
   
   .form-input-line{
@@ -101,5 +100,9 @@
 @media screen and (min-width: 1440px) {
   .form-input-line{
     height: 50px;
+  }
+
+  .form-input{
+    font-size: 1rem;
   }
 }
