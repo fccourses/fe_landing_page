@@ -1,6 +1,6 @@
 .numbers{
 	width: 100%;
-	background-color: #34547A;
+	background-color: var(--accent-color);
 }
 
 .numbers-content{
