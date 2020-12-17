@@ -14,6 +14,9 @@
   font-weight: 500;
   line-height: 1.2;
 }
+.ta-center {
+  text-align: center;
+}
 
 .main-heading {
   font-size: 3rem;
