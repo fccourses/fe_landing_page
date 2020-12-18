@@ -273,35 +273,41 @@
     </section>
 
     <section class="form">
-      <article class="container flex-center fd-column">
-        <div class="form-info flex-center ">
-          <h2 class="margin-bottom sub-heading text-overflow">Хотите веб-сайт?</h2>
-          <p class="margin-bottom text-content ">
+      <article
+        class="col-12 col-md-8 col-lg-8 col-xl-6 col-xxl-6 container flex-center fd-column"
+      >
+        <div class="form-info flex-center">
+          <h2 class="margin-bottom sub-heading text-overflow">
+            Хотите веб-сайт?
+          </h2>
+          <p class="margin-bottom text-content">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
             вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
             латинице с начала XVI века.
           </p>
         </div>
         <form action="" class="input-container">
-          <input
-            type="text"
-            placeholder="Ваше имя"
-            name="email"
-            required
-            class="input"
-          />
-          <input
-            type="email"
-            placeholder="Ваш e-mail"
-            name="email"
-            required
-            class="input"
-          />
+          <div class="user-info-wrapper">
+            <input
+              type="text"
+              placeholder="Ваше имя"
+              name="email"
+              required
+              class="input"
+            />
+            <input
+              type="email"
+              placeholder="Ваш e-mail"
+              name="email"
+              required
+              class="input"
+            />
+          </div>
           <textarea
-            name="massege"
+            name="message"
             rows="5"
             placeholder="Сообщение"
-            class="input"
+            class="input-message"
           ></textarea>
           <button class="btn form-btn">отправить</button>
         </form>
