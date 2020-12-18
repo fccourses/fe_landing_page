@@ -1,0 +1,59 @@
+
+.navigation {
+  background-color: var(--second-bg-color);
+  padding: 20px 6px;
+}
+
+.page-logo {
+  display: none;
+
+  --logo-size: 3rem;
+
+  font-family: "Revalia";
+  font-size: var(--logo-size);
+  color: var(--accent-color);
+
+  position: relative;
+  bottom: calc(var(--logo-size) / 4);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: auto;
+}
+
+.nav-list::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-item + .nav-item {
+  margin-left: 12px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.nav-link:hover{
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 576px) {
+  .page-logo {
+    display: block;
+  }
+  .nav-list {
+    margin: 0;
+  }
+  .flex {
+    justify-content: space-between;
+  }
+}

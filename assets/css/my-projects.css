@@ -1,0 +1,129 @@
+
+.my-projects{
+    width: 100%;
+    margin:0 0.5em 5.88em 0.5em ;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color:#34547a
+}
+
+.my-projects-conteiner {
+    flex: 0 1 70%;
+ }
+
+.items-conteiner {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:6.55em 0;
+    flex-wrap: wrap;
+}
+
+.my-project-item{
+    flex: 0 1 100%;
+    margin: 15px 3px ;
+    display:flex;
+    justify-content: center;
+}
+
+.icon{ flex: 0 1 auto;
+    width: 3.12em;
+    height: 3.25em;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.project-item-text{ flex: 0 1 auto;
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+
+.project-text:nth-child(odd){ 
+    margin-bottom: 0.60em;
+    padding-left: 0.5em;
+    padding-top:0.1em ;
+    font-size: 1.3em;
+    font-weight: 38em;
+    text-overflow: ellipsis;
+ }
+
+ .project-text:nth-child(even){ 
+    margin-top: 0.45em;
+    padding-left: 0.5em;
+    text-overflow: ellipsis;
+ }
+
+@media screen and (min-width:350px){
+    .items-conteiner {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:6.55em 0;
+        flex-wrap: wrap;
+     }
+    
+    .my-project-item{
+        flex: 0 1 45%;
+        margin: 15px 3px ;
+        display:flex;
+        justify-content: center;
+     }
+}
+
+@media screen and (min-width:576px){
+    .items-conteiner {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:6.55em 0;
+        flex-wrap: wrap;
+    }
+    
+    .my-project-item{
+        flex: 0 1 30%;
+        margin: 15px 3px ;
+        display:flex;
+        justify-content: center;
+       }
+}
+
+
+@media screen and (min-width:768px){
+    .items-conteiner {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:6.55em 0;
+        flex-wrap: wrap;
+    }
+    
+    .my-project-item{
+        flex: 0 1 30%;
+        margin: 15px 3px ;
+        display:flex;
+        justify-content: center;
+      }
+}
+
+
+@media screen and (min-width:1200px){
+    .items-conteiner {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:6.55em 0;
+        flex-wrap: wrap;
+    }
+    
+    .my-project-item{
+        flex: 0 1 14%;
+        margin: 15px 3px ;
+        display:flex;
+        justify-content: center;
+       }
+}
