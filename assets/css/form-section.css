@@ -1,0 +1,55 @@
+.want-form-wrapper {
+  width: 100%;
+  background-color: var(--second-bg-color);
+}
+.want-form {
+  text-align: center;
+  margin: 70px auto;
+}
+.form-description {
+  margin-top: 50px;
+  margin-bottom: 65px;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-info-item,
+.user-message {
+  padding: 1rem;
+}
+.user-info-item {
+  flex: 1 100%;
+}
+.user-name {
+  margin-bottom: 15px;
+}
+.user-message {
+  margin-top: 20px;
+}
+.send-btn {
+  max-width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 2rem;
+}
+@media screen and (min-width: 576px) {
+  .user-info-item {
+    max-width: 48%;
+    flex-basis: 48%;
+  }
+  .want-form {
+    margin: 100px auto;
+  }
+  .user-name {
+    margin-bottom: 0;
+  }
+}
