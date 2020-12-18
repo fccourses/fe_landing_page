@@ -12,27 +12,33 @@
 .numbers-block{
 	display: flex;
 	min-width: 141px;
-	justify-content: center;
 	margin: 50px auto;
 }
 
 .numbers-img{
-	margin: 0 10px;
+	max-width: 40%;
 }
 
 .numbers-text{
 	display: flex;
+	max-width: 60%;
 	flex-direction: column;
 	justify-content: center;
+
 }
 
-.numbers-text div{
-	padding: 0 10px 10px;
+.numbers-text > div{
+	width: 100%;
+	padding-left: 10px;
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+	overflow: hidden;
 	font-size: 15px;
 	color: white;
 }
 
 .numbers-text .text{
+	padding-bottom: 8px;
 	font-size: 19px;
 }
 
