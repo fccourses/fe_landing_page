@@ -1,0 +1,44 @@
+.numbers{
+	width: 100%;
+	background-color: var(--accent-color);
+}
+
+.numbers-content{
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.numbers-block{
+	display: flex;
+	min-width: 141px;
+	margin: 50px auto;
+}
+
+.numbers-img{
+	max-width: 40%;
+}
+
+.numbers-text{
+	display: flex;
+	max-width: 60%;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.numbers-text > div{
+	width: 100%;
+	padding-left: 10px;
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 15px;
+	color: white;
+}
+
+.numbers-text .text{
+	padding-bottom: 8px;
+	font-size: 19px;
+}
+
