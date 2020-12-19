@@ -97,3 +97,9 @@
     margin-bottom: var(--margin);
   }
 }
+
+@media screen and (max-width: 350px) {
+  .feedback-paddings {
+    padding: 0px;
+  }
+}
