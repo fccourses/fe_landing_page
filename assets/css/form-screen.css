@@ -1,0 +1,50 @@
+.form-screen {
+  background-color: #eeeff1;
+  padding: 90px 10px;
+}
+.form-container {
+  margin: 0 auto;
+}
+.form-heading {
+  font-size: 2rem;
+}
+.form-text {
+  margin: 50px 0;
+  font-size: 1.3rem;
+}
+.form-input {
+  margin: 10px 0;
+  padding: 10px 10px;
+  width: 100%;
+  min-height: 35px;
+  border: none;
+}
+.form-input::placeholder {
+  font-size: 14px;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.form-message {
+  min-height: 100px;
+  max-height: 50vh;
+  max-width: 100%;
+  min-width: 100%;
+}
+.form-button {
+  margin: 40px auto 0 auto;
+  width: 45%;
+  padding: 20px 0;
+  font-size: 1rem;
+}
+@media screen and (min-width: 576px) {
+  .personal-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .personal-info {
+    width: 47%;
+  }
+}

@@ -1,0 +1,76 @@
+.my-projects-screen {
+  padding: 3rem 0;
+  margin-bottom: 100px;
+  background-color: var(--accent-color);
+}
+
+.my-projects-container {
+  position: relative;
+  --padding-value: 1rem;
+  padding: 2rem 0px;
+}
+.my-projects-img-wrapper,
+.my-projects-info {
+  max-width: 50%;
+  width: 50%;
+}
+.my-projects-info {
+  color: white;
+  /* padding: var(--padding-value); */
+}
+.my-projects-info-head {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.my-projects-info-text {
+  font-size: 1.2rem;
+}
+
+.my-projects-info-text,
+.my-projects-info-head {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.my-projects-img-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.my-projects-img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.my-projects-container:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+@media screen and (min-width: 576px) {
+  .my-projects-container:nth-child(2n + 1) {
+    flex-direction: row;
+  }
+  .my-projects-container:nth-child(4n + 2),
+  .my-projects-container:nth-child(3n + 3) {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 768px) {
+  .my-projects-container:nth-child(1n) {
+    flex-direction: row;
+  }
+  .my-projects-container:nth-child(n + 4) {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .my-projects-container:nth-child(1n) {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .my-projects-screen {
+    padding: 3rem 100px;
+  }
+}
