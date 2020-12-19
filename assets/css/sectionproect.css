@@ -14,17 +14,18 @@
   font-size: 21px;
   font-weight: 500;
   padding-bottom: 10px;
-  
 }
 .icon {
   padding: 20px;
   max-width: 90px;
   max-height: 90px;
 }
-.content{
- margin-top:23px;
- display: -webkit-box;
- -webkit-line-clamp: 1;
- -webkit-box-orient:vertical;
- overflow: hidden;
+.content {
+  margin-top: 23px;
+  overflow: hidden;
+}
+.sub-content {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
