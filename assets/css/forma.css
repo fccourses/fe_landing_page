@@ -1,0 +1,87 @@
+.container {
+  margin: 0 auto;
+}
+.form {
+  background-color: var(--second-bg-color);
+  text-align: center;
+}
+.pre-form {
+  margin-top: 100px;
+}
+.text-size {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.content-text-size {
+  font-size: 1rem;
+  margin-top: 50px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+.submit-button {
+  display: block;
+  background-color: var(--accent-color);
+  padding: 20px 19px;
+  width: 190px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.registration {
+  display: block;
+}
+.margin-right {
+  margin-right: 30px;
+}
+.initialization {
+  padding: 17px 0px 18px 20px;
+  margin-top: 65px;
+  width: 47%;
+}
+.message {
+  padding: 17px 20px;
+  margin-top: 20px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 175px;
+  max-height: 175px;
+}
+.pre-form-content {
+  max-width: 406px;
+  margin-left: auto;
+  margin-right: auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.form-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media (max-width: 1400px) {
+  .initialization {
+    width: 46%;
+  }
+}
+@media (max-width: 992px) {
+  .initialization {
+    width: 47%;
+  }
+}
+@media (max-width: 768px) {
+  .initialization {
+    width: 46%;
+  }
+}
+@media (max-width: 440px) {
+  .initialization {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
