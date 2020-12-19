@@ -1,1 +1,59 @@
 @import "./assets/css/reset.css";
+article{
+  width: 100%;
+  max-width: 1920px;
+}
+.img,
+.text,
+.user,
+.text-area{
+  width: 100%;
+}
+.img {
+  max-width: 150px;
+  height: 30px;
+  object-fit: cover;
+  margin: 0 5px;
+}
+.user-form{
+  text-align: center;
+}
+.text{
+  max-width: 350px;
+  max-height: 150px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F9F9F9;
+  padding: 50px;
+}
+.user-form{
+  padding: 20px;
+  background-color:rgb(238,239,241) ;
+}
+.user{
+  max-width: 150px;
+  margin: 10px;
+}
+.text-area{
+  max-width:350px;
+  margin: 10px 0;
+}
+button{
+  padding: 5px 10px;
+  background-color: rgb(52,84,124);
+  color: white;
+  margin: 0 0 20px 0;;
+}
+.input-user{
+  max-width: 450px;
+  margin: 0 auto;
+}
+.user{
+  margin: 10px 20px;
+}
