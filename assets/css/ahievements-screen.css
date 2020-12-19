@@ -1,0 +1,51 @@
+.achievements {
+  padding: 4em;
+  padding-bottom: 1em;
+  background-color: #34547A;
+}
+
+.achievement {
+  margin-bottom: 2em;
+}
+
+.flex,
+.flex > .achievement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.achievement-icon {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.achievement-content {
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.achievement-header {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: inherit;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.achievement-text {
+  padding-top: 0.5em;
+  font-size: 1rem;
+  text-transform: lowercase;
+  color: inherit;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
