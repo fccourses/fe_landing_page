@@ -1,0 +1,34 @@
+.numbers{
+  background-color: var(--accent-color);
+}
+.numbers-container{
+  padding: 100px 0;
+  
+  color: white;
+}
+.numbers-item{
+  display: flex;
+  margin-bottom: 30px;
+
+}
+.numbers-icon-wrapper{
+  width: 50px;
+  height: 50px;
+}
+.numbers-icon{
+  object-fit: cover;
+}
+.numbers-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.numbers-num{
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 500;
+}
+.numbers-text{
+  text-transform: lowercase;
+}
