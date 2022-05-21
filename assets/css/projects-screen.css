@@ -1,91 +1,43 @@
-.projects-screen {
-}
 .project-container {
   position: relative;
   display: flex;
-  --padding-value: 1rem;
 }
+
 .project-img-wrapper,
 .project-info {
   max-width: 100%;
   width: 100%;
 }
-.project-img-wrapper {
-  position: relative;
-  background-color: var(--second-bg-color);
-}
+
 .project-img {
+  object-fit: cover;
   display: block;
   width: inherit;
   height: 100%;
+}
 
-  object-fit: cover;
-}
-.project-info {
-  padding: var(--padding-value);
-  position: absolute;
-  z-index: 2;
-  text-align: center;
-  background-color: var(--accent-color-bg);
-  opacity: 0;
-  color: white;
-  transition: opacity 0.3s ease-in-out;
-}
-.project-heading,
-.project-description {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-}
-.project-heading {
-  margin-top: -2rem;
-  -webkit-line-clamp: 2;
-}
-.project-description {
-  margin: 10px 0;
-  color: inherit;
-  -webkit-line-clamp: 5;
-}
-.project-link {
-  display: block;
-  max-width: 80%;
-  padding: 16px 32px;
-  position: absolute;
-  bottom: var(--padding-value);
-  pointer-events: none;
-  background-color: white;
-  color: black;
-}
-.project-container:hover > .project-info,
-.project-container:focus > .project-info {
-  opacity: 1;
-}
-.project-container:hover .project-link,
-.project-container:focus .project-link {
-  pointer-events: auto;
-}
 .aspect-ratio-square {
   padding-top: 100%;
 }
+
 @media screen and (min-width: 576px) {
   .project-img-wrapper,
   .project-info {
     max-width: 50%;
     width: 100%;
   }
+
   .project-info {
-    opacity: 1;
-    position: relative;
     background-color: var(--accent-color);
-  }
-  .project-link {
-    pointer-events: auto;
+    position: relative;
+    opacity: 1;
   }
 
   .project-container:nth-child(even) {
     flex-direction: row-reverse;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .project-container:nth-child(even) {
     flex-direction: initial;

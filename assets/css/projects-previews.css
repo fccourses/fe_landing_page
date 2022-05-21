@@ -1,0 +1,45 @@
+.section-container {
+  background-color: var(--accent-color);
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+.content-container {
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  display: flex;
+}
+
+.icon {
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.heading {
+  margin-bottom: 10px;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.sub-content {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 26px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .content-container {
+    margin-bottom: 0;
+  }
+}

@@ -4,23 +4,22 @@
 
 .container {
   --padding-value: calc(var(--gutter-size) / 2);
-  width: 100%;
-  margin: 0 auto;
-  padding-left: var(--padding-value);
   padding-right: var(--padding-value);
+  padding-left: var(--padding-value);
+  margin: 0 auto;
+  width: 100%;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-left: calc(var(--padding-value) * -1);
   margin-right: calc(var(--padding-value) * -1);
+  margin-left: calc(var(--padding-value) * -1);
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .row > * {
-  padding-left: var(--padding-value);
   padding-right: var(--padding-value);
+  padding-left: var(--padding-value);
 }
 
 .no-gutters {

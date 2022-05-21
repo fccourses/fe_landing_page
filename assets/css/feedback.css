@@ -1,0 +1,83 @@
+.feedback {
+  background-color: var(--second-bg-color);
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.about-me-text-margins {
+  margin-bottom: 50px;
+}
+
+.text-content-margin {
+  margin-bottom: 65px;
+}
+
+.form {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.input-wrapper {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.input {
+  padding: 17px 20px 18px 20px;
+  min-width: 255px;
+}
+
+.textarea {
+  margin-bottom: 50px;
+  padding: 17px 20px;
+  min-height: 175px;
+  resize: none;
+  width: 100%;
+}
+
+.input,
+.textarea {
+  font-family: "Roboto";
+  line-height: 23px;
+  color: #5f5d5d;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background-color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-family: "Roboto";
+  padding: 20px 19px;
+  line-height: 23px;
+  min-width: 190px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  border: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .input {
+    min-width: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form {
+    max-width: 460px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .input {
+    padding: 10px 15px;
+  }
+
+  .submit-btn {
+    padding: 10px 20px;
+    min-width: 0px;
+  }
+}
