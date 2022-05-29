@@ -1,0 +1,50 @@
+.project-container {
+  position: relative;
+  display: flex;
+}
+
+.project-img-wrapper,
+.project-info {
+  max-width: 100%;
+  width: 100%;
+}
+
+.project-img {
+  object-fit: cover;
+  display: block;
+  width: inherit;
+  height: 100%;
+}
+
+.aspect-ratio-square {
+  padding-top: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .project-img-wrapper,
+  .project-info {
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .project-info {
+    background-color: var(--accent-color);
+    position: relative;
+    opacity: 1;
+  }
+
+  .project-container:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-container:nth-child(even) {
+    flex-direction: initial;
+  }
+
+  .project-container:nth-child(4n + 3),
+  .project-container:nth-child(4n + 4) {
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,42 @@
+.how-i-work-screen {
+  background-color: var(--second-bg-color);
+  padding: 100px 0;
+}
+
+.how-i-work-article {
+  text-align: center;
+}
+
+.how-i-work-margins {
+  margin-bottom: 50px;
+}
+
+.text-content-how-i-work-margins {
+  margin-bottom: 57px;
+}
+
+.video {
+  width: 1110px;
+  height: 625px;
+}
+
+@media screen and (max-width: 1200px) {
+  .video {
+    height: 510px;
+    width: 910px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .video {
+    height: 310px;
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video {
+    height: 1%;
+    width: 85%;
+  }
+}

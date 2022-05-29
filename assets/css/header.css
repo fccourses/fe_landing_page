@@ -1,0 +1,71 @@
+.header-wrapper{
+  background-color: var(--second-bg-color);
+  padding: 57px 0px 0px;
+}
+
+.nav-logo {
+  color: var(--accent-color);
+  bottom: calc(3rem / 4);
+  font-family: "Revalia";
+  position: relative;
+  font-size: 3rem;
+  display: none;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+}
+
+.nav-list {
+  overflow-y: hidden;
+  overflow-x: auto;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+}
+
+.nav-list::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-item{
+  margin-bottom: 10px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 576px) {
+  .nav-list {
+    margin: 0;
+  }
+
+  .nav-item{
+    margin-bottom: 0px;
+  }
+
+  .nav-item:not(:last-child) {
+    margin-right: 42px;
+  }
+
+  .flex {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-logo {
+    display: block;
+  }
+}

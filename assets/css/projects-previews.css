@@ -1,0 +1,40 @@
+.section-container {
+  background-color: var(--accent-color);
+  padding: 100px 0;
+  color: #ffffff;
+}
+
+.project-icon-wrapper {
+  margin-bottom: 20px;
+}
+
+.project-icon {
+  margin-right: 20px;
+  margin-left: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.heading {
+  margin-bottom: 10px;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.sub-content {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .project-icon-wrapper {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.about-me-screen {
+  padding: 70px 0;
+}
+
+.about-me-article {
+  text-align: center;
+}
+
+.about-me-text-margins {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .about-me-screen {
+    padding: 119px 0px 100px 0px;
+  }
+}

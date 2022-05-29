@@ -1,0 +1,34 @@
+.skill-wrapper {
+  padding: 102px 0px 101px 0px;
+}
+
+.skill {
+  max-width: 67%;
+  margin: auto;
+}
+
+.adobe-photoshop-margin {
+  margin-bottom: 20px;
+}
+
+.progress-bar-wrapper {
+  background-color: #c4c4c4;
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  background-color: var(--accent-color-bg);
+  transform: rotate(-0.06deg);
+  height: 4px;
+  width: 75%;
+}
+
+.photo {
+  max-width: 83%;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper-photo {
+    text-align: center;
+  }
+}
