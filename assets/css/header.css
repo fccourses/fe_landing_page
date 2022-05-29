@@ -1,9 +1,9 @@
-.navigation {
+.header-wrapper{
   background-color: var(--second-bg-color);
   padding: 57px 0px 0px;
 }
 
-.page-logo {
+.nav-logo {
   color: var(--accent-color);
   bottom: calc(3rem / 4);
   font-family: "Revalia";
@@ -65,7 +65,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .page-logo {
+  .nav-logo {
     display: block;
   }
 }
