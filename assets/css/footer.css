@@ -1,0 +1,49 @@
+.footer-wrapper {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.footer-info-wrapper {
+  max-width: 191px;
+}
+
+.full-name {
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 21px;
+  display: block;
+}
+
+.license {
+  line-height: 21px;
+  font-size: 13px;
+}
+
+.vk-icon-wrapper {
+  text-align: end;
+}
+
+.vk-icon {
+  height: 40px;
+  width: 44px;
+}
+
+.vk-icon:not(:first-child) {
+  margin-left: 22px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer-info-wrapper {
+    margin: 0 auto;
+  }
+
+  .license {
+    margin-bottom: 10px;
+  }
+
+  .vk-icon-wrapper {
+    text-align: center;
+  }
+}
