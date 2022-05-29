@@ -1,14 +1,11 @@
 .section-container {
   background-color: var(--accent-color);
-  box-sizing: border-box;
   padding: 100px 0;
 }
 
 .content-container {
-  justify-content: center;
   margin-bottom: 20px;
   color: #ffffff;
-  display: flex;
 }
 
 .icon {
